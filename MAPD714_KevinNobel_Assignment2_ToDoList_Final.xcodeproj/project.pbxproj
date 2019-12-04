@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		FE2D91A0238DA1360035BE07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2D919F238DA1360035BE07 /* AppDelegate.swift */; };
 		FE2D91A2238DA1360035BE07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2D91A1238DA1360035BE07 /* SceneDelegate.swift */; };
-		FE2D91A4238DA1360035BE07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2D91A3238DA1360035BE07 /* ViewController.swift */; };
+		FE2D91A4238DA1360035BE07 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2D91A3238DA1360035BE07 /* CategoryViewController.swift */; };
 		FE2D91A7238DA1360035BE07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2D91A5238DA1360035BE07 /* Main.storyboard */; };
 		FE2D91AA238DA1360035BE07 /* MAPD714_KevinNobel_Assignment2_ToDoList_Final.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE2D91A8238DA1360035BE07 /* MAPD714_KevinNobel_Assignment2_ToDoList_Final.xcdatamodeld */; };
 		FE2D91AC238DA1380035BE07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2D91AB238DA1380035BE07 /* Assets.xcassets */; };
 		FE2D91AF238DA1380035BE07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2D91AD238DA1380035BE07 /* LaunchScreen.storyboard */; };
+		FE2D91B9238DB7BF0035BE07 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2D91B8238DB7BF0035BE07 /* ItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE2D919C238DA1360035BE07 /* MAPD714_KevinNobel_Assignment2_ToDoList_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAPD714_KevinNobel_Assignment2_ToDoList_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2D919F238DA1360035BE07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE2D91A1238DA1360035BE07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE2D91A3238DA1360035BE07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE2D91A3238DA1360035BE07 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		FE2D91A6238DA1360035BE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE2D91A9238DA1360035BE07 /* MAPD714_KevinNobel_Assignment2_ToDoList_Final.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MAPD714_KevinNobel_Assignment2_ToDoList_Final.xcdatamodel; sourceTree = "<group>"; };
 		FE2D91AB238DA1380035BE07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE2D91AE238DA1380035BE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE2D91B0238DA1380035BE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2D91B8238DB7BF0035BE07 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				FE2D919F238DA1360035BE07 /* AppDelegate.swift */,
 				FE2D91A1238DA1360035BE07 /* SceneDelegate.swift */,
-				FE2D91A3238DA1360035BE07 /* ViewController.swift */,
+				FE2D91A3238DA1360035BE07 /* CategoryViewController.swift */,
+				FE2D91B8238DB7BF0035BE07 /* ItemViewController.swift */,
 				FE2D91A5238DA1360035BE07 /* Main.storyboard */,
 				FE2D91AB238DA1380035BE07 /* Assets.xcassets */,
 				FE2D91AD238DA1380035BE07 /* LaunchScreen.storyboard */,
@@ -142,7 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE2D91AA238DA1360035BE07 /* MAPD714_KevinNobel_Assignment2_ToDoList_Final.xcdatamodeld in Sources */,
-				FE2D91A4238DA1360035BE07 /* ViewController.swift in Sources */,
+				FE2D91A4238DA1360035BE07 /* CategoryViewController.swift in Sources */,
+				FE2D91B9238DB7BF0035BE07 /* ItemViewController.swift in Sources */,
 				FE2D91A0238DA1360035BE07 /* AppDelegate.swift in Sources */,
 				FE2D91A2238DA1360035BE07 /* SceneDelegate.swift in Sources */,
 			);
